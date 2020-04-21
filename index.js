@@ -17,7 +17,7 @@ class Juego{
         this.siguienteNivel = this.siguienteNivel.bind(this)
         this.elegirColor = this.elegirColor.bind(this); //Atar evento al juego y no al boton
         this.toggleBtnEmpezar();
-        this.nivel = 8;
+        this.nivel = 1;
         this.colores = {
             celeste,
             violeta,
